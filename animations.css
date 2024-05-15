@@ -1,0 +1,172 @@
+.zoom {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  animation: zoomOut 1.5s ease-out forwards;
+}
+.zoom.show {
+  animation: zoom 1.5s ease-in-out forwards;
+  opacity: 1;
+}
+@keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes zoom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ani-right {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  animation: ani-right-in 1.5s ease-out forwards;
+}
+.ani-right.ani2 {
+  animation: ani-right-out 1.5s ease-in-out forwards;
+  opacity: 1;
+}
+@keyframes ani-right-in {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(20%);
+  }
+}
+@keyframes ani-right-out {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.ani-left {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  animation: left-in 1.5s ease-out forwards;
+}
+.ani-left.ani {
+  animation: left-out 1.5s ease-in-out forwards;
+  opacity: 1;
+}
+@keyframes left-in {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+@keyframes left-out {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.ani-top {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  animation: ani-top 0.5s ease-out forwards;
+}
+.ani-top.ani3 {
+  animation: ani-bottom 0.5s ease-in-out forwards;
+  opacity: 1;
+}
+
+.top1 {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  animation: ani-top 0.5s ease-out forwards;
+}
+.top1.ani4 {
+  animation: ani-bottom 0.5s ease-in-out forwards;
+  opacity: 1;
+}
+
+.top2 {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  animation: ani-top 1s ease-out forwards;
+}
+.top2.ani5 {
+  animation: ani-bottom 1s ease-in-out forwards;
+  opacity: 1;
+}
+
+.top3 {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  animation: ani-top 1.5s ease-out forwards;
+}
+.top3.ani6 {
+  animation: ani-bottom 1.5s ease-in-out forwards;
+  opacity: 1;
+}
+
+.top4 {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  animation: ani-top 2s ease-out forwards;
+}
+.top4.ani7 {
+  animation: ani-bottom 2s ease-in-out forwards;
+  opacity: 1;
+}
+@keyframes ani-top {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(50%);
+    }
+  }
+  @keyframes ani-bottom {
+    0% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+
+
+
+
+
+
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+  
+
+
+
+
+
